@@ -1,7 +1,7 @@
 auth:
   hub.docker.com:
-    username: fansir2022
-    password: ft19931115.
+    username: USERNAME
+    password: PASSWORD
 images:
   k8s.gcr.io/metrics-server/metrics-server: fansir2022/metrics-server
 #   k8s.gcr.io/ingress-nginx/controller: willdockerhub/ingress-nginx-controller
