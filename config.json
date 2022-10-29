@@ -6,6 +6,6 @@
         }
     },
     "images": {
-        "k8s.gcr.io/ingress-nginx/controller": "fansir2022/ingress-nginx-controller"
+        "k8s.gcr.io/prometheus-adapter/prometheus-adapter": "fansir2022/prometheus-adapter"
     }
 }
