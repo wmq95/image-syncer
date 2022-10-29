@@ -1,19 +1,10 @@
-# This is a basic workflow to help you get started with Actions
-
-name: image-sync
+name: docker-image-sync
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
-    - cron: '0 14 * * 1'
-
-env:
-  IMAGE_SYNCER_VERSION: v1.3.1
-  USERNAME: ${{ secrets.USERNAME }}
-  PASSWORD: ${{ secrets.PASSWORD }}
-
+    - cron: '0 01 * * *'
+  
 jobs:
   image-sync:
     runs-on: ubuntu-latest
@@ -21,14 +12,16 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-
-    - name: install image-sync tool
+      
+    - name: 镜像同步配置处理
       run: |
-        wget https://github.com/AliyunContainerService/image-syncer/releases/download/${IMAGE_SYNCER_VERSION}/image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
-        tar -zxf image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
+        sed -i 's/DOCKERHUB_PASSWORD/${{ secrets.DOCKERHUB_PASSWORD }}/g' config.json
         
-    - name: add sercret to file
-      run: envsubst < config_source.yaml > config.yaml
-
-    - name: sync images
-      run: ./image-syncer --proc=10 --config=config.yaml --retries=2
+    - name: 下载image-sync工具包
+      run: |
+        wget https://github.com/AliyunContainerService/image-syncer/releases/download/v1.3.1/image-syncer-v1.3.1-linux-amd64.tar.gz
+        tar -zxf image-syncer-v1.3.1-linux-amd64.tar.gz
+      
+    - name: 执行同步镜像
+      run: |
+        ./image-syncer --proc=2 --config=config.json --retries=2
