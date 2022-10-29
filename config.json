@@ -1,0 +1,11 @@
+{
+    "auth": {
+        "registry.hub.docker.com": {
+            "username": "fansir2022",
+            "password": "DOCKERHUB_PASSWORD"
+        }
+    },
+    "images": {
+        "k8s.gcr.io/ingress-nginx/controller": "fansir2022/ingress-nginx-controller"
+    }
+}
