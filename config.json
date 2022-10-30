@@ -1,7 +1,7 @@
 {
     "auth": {
-        "registry.hub.docker.com": {
-            "username": "fansir2022",
+        "registry.cn-shanghai.aliyuncs.com": {
+            "username": "ft1282904462",
             "password": "DOCKERHUB_PASSWORD"
         }
     },
