@@ -6,8 +6,8 @@
         }
     },
     "images": {
-        "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "fansir2022/kube-state-metrics",
-        "quay.io/brancz/kube-rbac-proxy": "fansir2022/kube-rbac-proxy",
-        "quay.io/prometheus-operator/prometheus-operator": "fansir2022/prometheus-operator"
+        "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "ft-test-docker/kube-state-metrics",
+        "quay.io/brancz/kube-rbac-proxy": "ft-test-docker/kube-rbac-proxy",
+        "quay.io/prometheus-operator/prometheus-operator": "ft-test-docker/prometheus-operator"
     }
 }
