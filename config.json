@@ -7,7 +7,7 @@
         "registry.hub.docker.com": {
             "username": "fansir2022",
             "password": "DOCKERHUB_PASSWORD"
-        },
+        }
     },
     "images": {
         "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/kube-state-metrics",
