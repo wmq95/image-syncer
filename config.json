@@ -10,8 +10,7 @@
         }
     },
     "images": {
-        "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/kube-state-metrics",
-        "quay.io/brancz/kube-rbac-proxy": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/kube-rbac-proxy",
-        "quay.io/prometheus-operator/prometheus-operator": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/prometheus-operator"
+        "registry.k8s.io/prometheus-adapter/prometheus-adapter":"registry.cn-shanghai.aliyuncs.com/ft-test-docker/prometheus-adapter",
+        "grafana/grafana:9.1.7": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/grafana"
     }
 }
