@@ -10,6 +10,6 @@
         }
     },
     "images": {
-        "quay.io/prometheus/blackbox-exporter": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/blackbox-exporter"
+        "jimmidyson/configmap-reload": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/configmap-reload"
     }
 }
