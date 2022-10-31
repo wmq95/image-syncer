@@ -10,7 +10,6 @@
         }
     },
     "images": {
-        "registry.k8s.io/prometheus-adapter/prometheus-adapter":"registry.cn-shanghai.aliyuncs.com/ft-test-docker/prometheus-adapter",
-        "grafana/grafana:9.1.7": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/grafana"
+        "quay.io/prometheus/blackbox-exporter": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/blackbox-exporter"
     }
 }
