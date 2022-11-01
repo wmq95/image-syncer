@@ -10,6 +10,6 @@
         }
     },
     "images": {
-        "quay.io/tigera/operator:v1.28.0": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/tigera/operator:v1.28.0"
+        "quay.io/tigera/operator:v1.28.0": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/tigera-operator:v1.28.0"
     }
 }
