@@ -10,6 +10,6 @@
         }
     },
     "images": {
-        "nginx:latest": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/nginx:latest"
+        "quay.io/prometheuscommunity/postgres-exporter": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/postgres-exporter"
     }
 }
