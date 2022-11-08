@@ -10,6 +10,6 @@
         }
     },
     "images": {
-        "quay.io/prometheuscommunity/postgres-exporter": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/postgres-exporter"
+        "google/cadvisor:latest": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/cadvisor:latest"
     }
 }
