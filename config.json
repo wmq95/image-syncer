@@ -10,6 +10,6 @@
         }
     },
     "images": {
-        "google/cadvisor:latest": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/cadvisor:latest"
+        "registry.aliyuncs.com/google_containers/etcd": "registry.cn-shanghai.aliyuncs.com/ft-test-docker/etcd"
     }
 }
