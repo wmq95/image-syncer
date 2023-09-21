@@ -3,7 +3,7 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  provectuslabs/kafka-ui:latest: kafka-ui:latest
+  provectuslabs/kafka-ui:latest: kafka/kafka-ui:latest
 #   k8s.gcr.io/ingress-nginx/controller: willdockerhub/ingress-nginx-controller
 #   k8s.gcr.io/git-sync/git-sync: willdockerhub/git-sync
 #   gcr.io/kaniko-project/executor:debug,latest: willdockerhub/kaniko-executor
